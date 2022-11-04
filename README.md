@@ -1,5 +1,8 @@
 # read-entire-stream
 
+[![Download Status](https://img.shields.io/npm/dm/read-entire-stream.svg?style=flat-square)](https://www.npmjs.com/package/read-entire-stream)
+[![Sponsor on GitHub](https://img.shields.io/static/v1?label=Sponsor&message=❤&logo=GitHub&link=https://github.com/sponsors/compwright)](https://github.com/sponsors/compwright)
+
 Reads an entire stream's contents into a buffer.
 
 Requires Node.js 16+
