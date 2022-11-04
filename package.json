@@ -1,0 +1,46 @@
+{
+  "name": "read-entire-stream",
+  "version": "1.0.0",
+  "description": "Reads an entire stream's contents into a buffer. Made for ES6 and Node.js 16+.",
+  "type": "module",
+  "engines": {
+    "node": ">= 16"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "echo":"./bin/echo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compwright/read-entire-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "buffer",
+    "async"
+  ],
+  "author": "Jonathon Hill <jonathon@compwright.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compwright/read-entire-stream/issues"
+  },
+  "homepage": "https://github.com/compwright/read-entire-stream#readme",
+  "devDependencies": {
+    "standard": "latest",
+    "standard-version": "latest",
+    "unbuild": "latest"
+  },
+  "unbuild": {
+    "failOnWarn": false
+  }
+}
